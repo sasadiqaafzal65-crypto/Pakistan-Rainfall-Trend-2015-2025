@@ -1,19 +1,18 @@
-# Spatio-Temporal Rainfall Trend Analysis (2015–2025) – Pakistan 
+# Spatio-Temporal Rainfall Trend Analysis (2015–2025) – Pakistan
 
-## 📌 Overview
-This project analyzes annual rainfall trends (2015–2025) across major provinces of Pakistan using the CHIRPS precipitation dataset within Google Earth Engine (GEE).
+## 📌 Project Overview
+This project analyzes annual rainfall trends (2015–2025) across major provinces of Pakistan using the CHIRPS precipitation dataset in Google Earth Engine (GEE).
 
-The analysis includes interactive visualization and linear trend assessment for each province.
+The analysis provides province-wise rainfall patterns with trendline visualization.
 
 ---
 
 ## 🗺 Study Area
-Provinces included:
 - Punjab
 - Sindh
 - Khyber Pakhtunkhwa
 - Balochistan
-- Federally Administered Tribal Areas (FATA)
+- FATA
 - Islamabad
 
 ---
@@ -25,37 +24,28 @@ Provinces included:
 ---
 
 ## ⚙ Methodology
-1. Daily precipitation data aggregated annually (2015–2025)
-2. Mean rainfall calculated per province
-3. Linear trendline applied with R² value
-4. Interactive dropdown-based visualization in GEE
+1. Daily precipitation data aggregated to annual totals.
+2. Mean rainfall calculated for each province.
+3. Linear trendline applied to assess rainfall trend (2015–2025).
+4. Interactive dropdown visualization developed in Google Earth Engine.
 
 ---
 
-## 🧠 Tools & Platform
-- Google Earth Engine (JavaScript API)
-- CHIRPS Climate Dataset
-- FAO GAUL Boundary Dataset
+## 📂 Project Structure
+- rainfall_trend.js → Google Earth Engine script
+- data/ → Province-wise CSV rainfall data
+- screenshots/ → Rainfall trend charts (PNG)
 
 ---
 
 ## 📈 Output
 - Province-wise rainfall trend charts
-- Linear regression trendline
-- Interactive selection panel
-- CSV export functionality (optional)
-
----
-
-## 📌 Applications
-- Climate change assessment
-- Hydrological planning
-- Agricultural risk analysis
-- Drought monitoring
+- Annual rainfall CSV datasets
+- Linear regression trend assessment
 
 ---
 
 ## 📎 Author
-Sadiqa Afzal
-MSCS (Computer Science)  
+Your Sadiqa Afzal
+MSCS (Computer Science)
 Year: 2026
