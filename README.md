@@ -1,4 +1,4 @@
-# Spatio-Temporal Rainfall Trend Analysis (2015–2025) – Pakistan
+# Spatio-Temporal Rainfall Trend Analysis (2015–2025) – Pakistan 
 
 ## 📌 Overview
 This project analyzes annual rainfall trends (2015–2025) across major provinces of Pakistan using the CHIRPS precipitation dataset within Google Earth Engine (GEE).
